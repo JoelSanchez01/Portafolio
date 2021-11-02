@@ -15,10 +15,12 @@ const devConfig = {
   plugins: [new ReactRefreshWebpackPlugin()],
   devtool: "eval-source-map",
   module: {
-    rules: {
-      use: ["style-loader", "css-loader", "sass-loader"],
-      test: /.(css|sass|scss)$/,
-    },
+    rules: [
+      {
+        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /.(css|sass|scss)$/,
+      },
+    ],
   },
 };
 
