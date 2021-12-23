@@ -1,10 +1,9 @@
-import { useState } from "react";
+import "./assets/styles/App.css";
 
 function App() {
-  const [name, setName] = useState("");
   return (
     <div id="app">
-      <h1>Hola Joel</h1>
+      <h1>Hola</h1>
     </div>
   );
 }
