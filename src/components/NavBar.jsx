@@ -1,10 +1,11 @@
-import { Tabs, Tab, TabContainer } from "react-bootstrap";
+import { Tabs, Tab } from "react-bootstrap";
+import "../assets/styles/NavBar.css";
 
 const NavBar = () => {
   return (
     <Tabs
       justify
-      className="justify-content-center align-items-center"
+      className="justify-content-center align-items-center tabulador"
       defaultActiveKey="link-1"
     >
       <Tab eventKey="link-1" title="Sobre mi">

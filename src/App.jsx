@@ -2,6 +2,8 @@ import React from "react";
 import "./assets/styles/App.css";
 import Header from "./components/Header";
 import Card from "./components/Card";
+import NavBar from "./components/NavBar";
+
 class App extends React.Component {
   render() {
     return (
@@ -9,7 +11,7 @@ class App extends React.Component {
         <Header />
         <div className="tarjeta">
           <Card>
-            <h1>hola</h1>
+            <NavBar />
           </Card>
         </div>
       </div>
