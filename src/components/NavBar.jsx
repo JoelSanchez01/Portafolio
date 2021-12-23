@@ -7,14 +7,8 @@ const NavBar = () => {
       className="justify-content-center align-items-center"
       defaultActiveKey="link-1"
     >
-      <TabContainer title="Joel Sanchez"></TabContainer>
-
       <Tab eventKey="link-1" title="Sobre mi">
         <h1>Sobre mi</h1>
-      </Tab>
-
-      <Tab eventKey="link-2" title="Certificaciones">
-        <h1>Certificaciones</h1>
       </Tab>
 
       <Tab eventKey="link-3" title="Proyectos">
