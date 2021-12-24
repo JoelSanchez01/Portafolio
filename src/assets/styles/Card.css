@@ -1,4 +1,4 @@
-.card {
+.cardXD {
   width: 80%;
   height: 80vh;
   background-color: rgba(00, 00, 0, 0.3);
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .card {
+  .cardXD {
     width: 90%;
     height: auto;
     margin: 30px auto;

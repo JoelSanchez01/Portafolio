@@ -1,6 +1,7 @@
 import { Tabs, Tab } from "react-bootstrap";
 import "../assets/styles/NavBar.css";
 import Sobremi from "./Sobremi";
+import Proyectos from "./Proyectos";
 
 const NavBar = () => {
   return (
@@ -14,7 +15,7 @@ const NavBar = () => {
       </Tab>
 
       <Tab eventKey="link-3" title="Proyectos">
-        <h1>Proyectos</h1>
+        <Proyectos />
       </Tab>
     </Tabs>
   );
