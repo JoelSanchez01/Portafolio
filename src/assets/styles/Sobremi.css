@@ -1,0 +1,89 @@
+.tab-content,
+.tab-pane {
+  width: 100%;
+  height: 95%;
+}
+
+.Sobremi {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  text-align: justify;
+  margin: 0 30px;
+  padding: 30px;
+}
+
+.Sobremi .imagen {
+  margin: 0 50px;
+}
+
+.Sobremi h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.Sobremi h2 {
+  font-size: 2.2rem;
+}
+
+.Sobremi .texto__title {
+  margin-bottom: 20px;
+}
+
+.Sobremi .texto__descripcion {
+  text-align: justify;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.Sobremi .imagen img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.Sobremi .texto__redes ul,
+.texto__tecnologia ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Sobremi .texto__redes ul li,
+.texto__tecnologia ul li {
+  margin: 0 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Sobremi .texto__redes ul li a,
+.texto__tecnologia ul li {
+  text-decoration: none;
+  color: var(--main-white);
+  font-size: 3rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.Sobremi .texto__redes ul li:hover,
+.texto__tecnologia ul li:hover {
+  transform: scale(1.2);
+}
+
+.Sobremi .texto__redes ul li #facebook:hover {
+  color: #1877f2;
+}
+
+.Sobremi .texto__redes ul li #twitter:hover {
+  color: #00acee;
+}
+
+.Sobremi .texto__redes ul li #linkedin:hover {
+  color: #0e76a8;
+}
+
+.Sobremi .texto__redes ul li #whatsapp:hover {
+  color: #25d366;
+}

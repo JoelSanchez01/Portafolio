@@ -1,5 +1,6 @@
 import { Tabs, Tab } from "react-bootstrap";
 import "../assets/styles/NavBar.css";
+import Sobremi from "./Sobremi";
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
       defaultActiveKey="link-1"
     >
       <Tab eventKey="link-1" title="Sobre mi">
-        <h1>Sobre mi</h1>
+        <Sobremi />
       </Tab>
 
       <Tab eventKey="link-3" title="Proyectos">
