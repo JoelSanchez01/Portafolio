@@ -1,6 +1,8 @@
 import "../assets/styles/Sobremi.css";
 import foto from "../assets/images/foto1.jpg";
 
+import TypeWriterEffect from "react-typewriter-effect";
+
 const Sobremi = () => {
   return (
     <div className="Sobremi">
@@ -9,10 +11,28 @@ const Sobremi = () => {
       </div>
       <div className="texto">
         <div className="texto__title">
-          <h1>
-            Joel Sanchez<span>&#160;</span>
-          </h1>
-          <h2>FrontEnd Developer</h2>
+          <h1>Joel Sanchez</h1>
+          <h2>
+            <TypeWriterEffect
+              textStyle={{
+                fontFamily: "Noto Sans Display",
+                fontWeight: 400,
+                fontSize: "2.2rem",
+              }}
+              startDelay={1000}
+              cursorColor="var(--main-white)"
+              multiText={[
+                "FrontEnd Developer",
+                "Developer Junior",
+                "Tecnico en Programacion",
+                "Estudiante de Ingenieria En Sistemas",
+                "FrontEnd Developer",
+              ]}
+              multiTextDelay={2000}
+              typeSpeed={100}
+              hideCursorAfterText={true}
+            />
+          </h2>
         </div>
         <div className="texto__descripcion">
           <p>
