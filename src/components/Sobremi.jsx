@@ -2,7 +2,7 @@ import "../assets/styles/Sobremi.css";
 import foto from "../assets/images/foto1.jpg";
 
 import TypeWriterEffect from "react-typewriter-effect";
-
+import platzi from "../assets/images/platzi.png";
 const Sobremi = () => {
   return (
     <div className="Sobremi">
@@ -46,23 +46,27 @@ const Sobremi = () => {
           Encuentrame:
           <ul>
             <li>
-              <a id="facebook" href="">
-                <i class="fab fa-facebook"></i>
+              <a id="facebook" href="" title="Facebook">
+                <i className="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="" id="twitter">
-                <i class="fab fa-twitter"></i>
+              <a href="" id="twitter" title="Twitter">
+                <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="" id="linkedin">
-                <i class="fab fa-linkedin"></i>
+              <a href="" id="linkedin" title="Linkedin y Certificados">
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="" id="whatsapp">
-                <i class="fab fa-whatsapp"></i>
+              <a
+                href="mailto:joeleduardosanchezherrera@gmail.com"
+                id="whatsapp"
+                title="Enviame un Correo!"
+              >
+                <i className="far fa-envelope"></i>
               </a>
             </li>
           </ul>
@@ -71,31 +75,31 @@ const Sobremi = () => {
           Tecnologias:
           <ul>
             <li title="React">
-              <i class="fab fa-react"></i>
+              <i className="fab fa-react"></i>
             </li>
             <li title="Html">
-              <i class="fab fa-html5"></i>
+              <i className="fab fa-html5"></i>
             </li>
             <li title="Css">
-              <i class="fab fa-css3-alt"></i>
+              <i className="fab fa-css3-alt"></i>
             </li>
             <li title="Bootstrap">
-              <i class="fab fa-bootstrap"></i>
+              <i className="fab fa-bootstrap"></i>
             </li>
             <li title="JavaScript">
-              <i class="fab fa-js"></i>
+              <i className="fab fa-js"></i>
             </li>
             <li title="Java">
-              <i class="fab fa-java"></i>
+              <i className="fab fa-java"></i>
             </li>
             <li title="Node.JS">
-              <i class="fab fa-node-js"></i>
+              <i className="fab fa-node-js"></i>
             </li>
             <li title="Figma">
-              <i class="fab fa-figma"></i>
+              <i className="fab fa-figma"></i>
             </li>
             <li title="SQL">
-              <i class="fas fa-database"></i>
+              <i className="fas fa-database"></i>
             </li>
           </ul>
         </div>

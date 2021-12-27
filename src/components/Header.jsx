@@ -5,7 +5,7 @@ const Header = () => {
     <div className="Header">
       <p>Joel Sanchez</p>
       <button className="darkmodeB">
-        <i class="fas fa-adjust"></i>
+        <i className="fas fa-adjust"></i>
       </button>
     </div>
   );

@@ -1,0 +1,63 @@
+{
+    "datos": [
+        {
+            "id": 1,
+            "foto": "assets/images/lolo.png",
+            "titulo": "ninguneduardo.com",
+            "descripcion":"Sitio web del Comediante Lolo Espinoza hecho en React",
+            "enlace":"http://ninguneduardo.com/"
+        },
+        {
+            "id": 2,
+            "foto": "assets/images/calculadora.png",
+            "titulo": "Calculadora en JS",
+            "descripcion":"Calculadora creada en JavaScript, HTMl, CSS",
+            "enlace":"https://github.com/JoelSanchez01/Calculadora"
+        },
+        {
+            "id": 3,
+            "foto": "assets/images/congreso.png",
+            "titulo": "Sitio Web Congreso",
+            "descripcion":"Sitio web para el congreso de la escuela ITSM",
+            "enlace":"https://congreso.tecmante.edu.mx/"
+        },
+        {
+            "id": 4,
+            "foto": "assets/images/genbu.png",
+            "titulo": "Sitio web de Genbu",
+            "descripcion":"Sitio web para la consultoria de Genbu",
+            "enlace":"https://genbumx.com/"
+        },
+        {
+            "id": 5,
+            "foto": "assets/images/batabit.png",
+            "titulo": "Sitio web Responsivo",
+            "descripcion":"Sitio web responsivo de la empresa Batabit",
+            "enlace":"https://github.com/JoelSanchez01/Batabit-Responsive"
+        },
+        {
+            "id": 6,
+            "foto": "assets/images/rick.png",
+            "titulo": "Consumiento API",
+            "descripcion":"Sitio Web consumiendo la API de Rick and Morty con buscador",
+            "enlace":"https://github.com/JoelSanchez01/RickAndMortyCharacters"
+        },
+         {
+             "id": 7,
+            "foto": "assets/images/animalopedia1.png",
+            "titulo": "App ReactNative",
+            "descripcion":"Aplicacion Movil con React native con Login y locacilzacion GPS",
+            "enlace":"https://github.com/JoelSanchez01/AnimalopediaReactNative"
+        },
+        {
+            "id": 8,
+            "foto": "assets/images/portafolio.png",
+            "titulo": "Mi portafolio!",
+            "descripcion":"Portafolio creado con React, CSS y HTML",
+            "enlace":"#"
+        }
+        
+    ]
+}
+
+  
