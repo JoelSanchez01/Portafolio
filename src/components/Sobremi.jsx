@@ -46,17 +46,35 @@ const Sobremi = () => {
           Encuentrame:
           <ul>
             <li>
-              <a id="facebook" href="" title="Facebook">
+              <a
+                id="facebook"
+                href="https://www.facebook.com/JoelSanchezHe/"
+                target="_blank"
+                rel="noreferrer"
+                title="Facebook"
+              >
                 <i className="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="" id="twitter" title="Twitter">
+              <a
+                href="https://twitter.com/JoelSanH01"
+                id="twitter"
+                title="Twitter"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="" id="linkedin" title="Linkedin y Certificados">
+              <a
+                href="https://www.linkedin.com/in/joel-eduardo-sanchez-herrera-2535491bb"
+                id="linkedin"
+                title="Linkedin y Certificados"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
