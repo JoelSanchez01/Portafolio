@@ -8,10 +8,10 @@ const Proyecto = (props) => {
       <Card.Body>
         <Card.Title>{titulo}</Card.Title>
         <Card.Text>{descripcion}</Card.Text>
-        <Card.Link target="_blank" href={enlace} rel="noreferrer">
-          Ver Enlace
-        </Card.Link>
       </Card.Body>
+      <Button className="button" target="_blank" href={enlace} rel="noreferrer">
+        Ver Proyecto
+      </Button>
     </Card>
   );
 };

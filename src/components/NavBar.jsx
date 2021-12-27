@@ -10,7 +10,7 @@ const NavBar = () => {
       className="justify-content-center align-items-center tabulador"
       defaultActiveKey="link-1"
     >
-      <Tab eventKey="link-1" title="Sobre mi">
+      <Tab eventKey="link-1" title="Sobre mí">
         <Sobremi />
       </Tab>
 

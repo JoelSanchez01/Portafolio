@@ -25,7 +25,7 @@
             "id": 4,
             "foto": "assets/images/genbu.png",
             "titulo": "Sitio web de Genbu",
-            "descripcion":"Sitio web para la consultoria de Genbu",
+            "descripcion":"Sitio web para la consultoría de Genbu",
             "enlace":"https://genbumx.com/"
         },
         {
@@ -38,15 +38,15 @@
         {
             "id": 6,
             "foto": "assets/images/rick.png",
-            "titulo": "Consumiento API",
+            "titulo": "Consumiendo API",
             "descripcion":"Sitio Web consumiendo la API de Rick and Morty con buscador",
             "enlace":"https://github.com/JoelSanchez01/RickAndMortyCharacters"
         },
          {
              "id": 7,
             "foto": "assets/images/animalopedia1.png",
-            "titulo": "App ReactNative",
-            "descripcion":"Aplicacion Movil con React native con Login y locacilzacion GPS",
+            "titulo": "App React Native",
+            "descripcion":"App Móvil con React native con Login y GPS",
             "enlace":"https://github.com/JoelSanchez01/AnimalopediaReactNative"
         },
         {

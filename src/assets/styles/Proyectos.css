@@ -7,6 +7,8 @@
 .card {
   margin: 0 15px;
   transition: 0.3s all ease-in-out;
+  width: 20%;
+  height: 220px;
 }
 
 .card-title {
@@ -15,15 +17,6 @@
 
 .card-text {
   font-size: 1.2rem;
-}
-
-.card-link {
-  margin-top: 100px;
-}
-
-.card {
-  width: 20%;
-  height: 220px;
 }
 
 .Proyectos {
@@ -57,6 +50,7 @@
   }
   .card {
     width: 80%;
+    height: 250px;
     margin-bottom: 20px;
   }
 }

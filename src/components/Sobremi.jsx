@@ -36,10 +36,11 @@ const Sobremi = () => {
         </div>
         <div className="texto__descripcion">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            mollitia fugit ut rerum recusandae, eveniet in temporibus
-            exercitationem velit porro officia tempora quo dolores cum repellat
-            architecto ratione aspernatur unde?
+            Soy un Joven de 20 años de Ciudad Mante, Tamaulipas. Apasionado a la
+            programación, estudiante de ingeniería en sistemas computacionales,
+            desarrollador de software, certificado en varias tecnologías como
+            React, HTML, etc. Siempre estoy intentando mejorar y aprender algo
+            nuevo.
           </p>
         </div>
         <div className="texto__redes">
